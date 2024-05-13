@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 
+#define int long long int
+
 using namespace std;
 
 int gcd(int a,int b){
@@ -15,7 +17,7 @@ int lcm(int a,int b){
     return (a*b)/gcd(a,b);
 }
 
-int main() {
+int32_t main() {
     int ans = 1;
     for(int i=1;i<20;i++){
         ans = lcm(ans,i+1);
