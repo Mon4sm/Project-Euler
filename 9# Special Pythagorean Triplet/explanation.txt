@@ -1,0 +1,13 @@
+First we re-define (a^2)+(b^2) = (c^2) into a less-variable form. We get:
+
+  a = (m^2) - (n^2)
+  b = 2mn
+  c = (m^2) + (n^2)
+
+Then we put a,b,c into the given formula a+b+c = 1000 using the new variables. we get:
+
+  2(m^2 + mn) = 1000
+  Simplified into:
+    m^2 + mn = 500
+
+We know that m and n does not exceed 500. Now we iterate every possibility from 1-500
