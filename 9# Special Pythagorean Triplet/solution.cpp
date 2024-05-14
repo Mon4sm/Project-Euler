@@ -4,8 +4,8 @@ using namespace std;
 
 int main(){
     int n,m;
-    for(n=1;n<=50;n++){
-        for(m=1;m<=50;m++){
+    for(n=1;n<=500;n++){
+        for(m=1;m<=500;m++){
             if((m*m)+(m*n) == 500){
                 int c = (m*m)+(n*n);
                 int a = (m*m)-(n*n);
